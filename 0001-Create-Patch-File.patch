@@ -1,0 +1,35 @@
+From 5b462b7cded4b9a0d93ae87c82541559ba1d3db0 Mon Sep 17 00:00:00 2001
+From: Peter Nicaj <peternicaj@gmail.com>
+Date: Wed, 19 May 2021 07:18:56 +0000
+Subject: [PATCH] Create Patch File
+
+---
+ src/App.tsx   | 2 +-
+ src/Graph.tsx | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/src/App.tsx b/src/App.tsx
+index 40de49d..34f71e5 100644
+--- a/src/App.tsx
++++ b/src/App.tsx
+@@ -83,4 +83,4 @@ class App extends Component<{}, IState> {
+     }
+ }
+ 
+-export default App;
+\ No newline at end of file
++export default App;
+diff --git a/src/Graph.tsx b/src/Graph.tsx
+index 2929965..94af463 100644
+--- a/src/Graph.tsx
++++ b/src/Graph.tsx
+@@ -75,4 +75,4 @@ class Graph extends Component<IProps, {}> {
+   }
+ }
+ 
+-export default Graph;
+\ No newline at end of file
++export default Graph;
+-- 
+2.17.1
+
